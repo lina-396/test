@@ -1,0 +1,46 @@
+
+body {
+    padding-top: 80px;
+  }
+  
+  .show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+
+.rows{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.block{
+ border-color: black;
+ padding: 20px;
+ margin: 0px 30px;
+ border-style: outset inset inset outset;
+}
+.b{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 25px;
+    margin: 0px 20px;
+    width: 30px;
+    height: 30px;
+}
+.im{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%);
+}
+.im:hover{
+    filter: none;
+}
